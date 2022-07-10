@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+}
+
+.contenedor{
+    background: url(./blob-scene-haikei.svg);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    color: #eee;
+    font-family: 'Edu VIC WA NT Beginner', sans-serif;
+
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+p{
+    font-size: 3rem;
+    font-weight: 600;
+    text-shadow: 5px 2px 10px rgb(23, 2, 32);
+    padding: 15%;
+}
+
+button{
+    font-size: xx-large;
+    padding: 0.75em;
+    width: 80px;
+    height: 80px;
+    
+    background: rgb(151, 33, 92);
+    border: none;
+    border-radius: 5px;
+
+    font-size: 30px;
+    color: #eee;
+    font-family: 'Edu VIC WA NT Beginner', sans-serif;
+    font-weight: 600;
+}
+
+#yesBtn{
+    transform: translate(-100%,0);
+}
+
+#noBtn{
+    position: absolute;
+    transition: .23s;
+}
